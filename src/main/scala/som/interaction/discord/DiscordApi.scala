@@ -5,7 +5,11 @@ import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEve
 import net.dv8tion.jda.api.events.interaction.component.StringSelectInteractionEvent
 import net.dv8tion.jda.api.hooks.EventListener
 import net.dv8tion.jda.api.interactions.commands.Command.Choice
-import net.dv8tion.jda.api.interactions.commands.build.{Commands, OptionData, SlashCommandData}
+import net.dv8tion.jda.api.interactions.commands.build.{
+  Commands,
+  OptionData,
+  SlashCommandData
+}
 import net.dv8tion.jda.api.interactions.commands.{OptionMapping, OptionType}
 import net.dv8tion.jda.api.requests.GatewayIntent
 import net.dv8tion.jda.api.{JDA, JDABuilder}
